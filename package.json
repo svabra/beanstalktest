@@ -2,8 +2,9 @@
   "name": "beanstalktest",
   "version": "0.0.0",
   "private": true,
+  "main": "src/www.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./src/www.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
